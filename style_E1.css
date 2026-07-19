@@ -1,0 +1,63 @@
+/* این کد رو به file.css اضافه کن */
+body {
+    min-height: 100vh;          
+    display: flex;              
+    justify-content: center;   
+    align-items: center;      
+    background-color: #141414; 
+    color: white;
+    font-family:'Inter',sans-serif;
+    padding-top: 30px;
+}
+
+.name {
+    margin-bottom: 7px;
+}
+
+.bio {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+
+.card {
+    display: grid;
+    place-items: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 35px;
+    background-color: #1F1F1F;
+    
+}
+
+/* استایل عکس پروفایل (دایره‌ای) */
+.avatar {
+    width: 88px;              /* عرض عکس */
+    height: 88px;             /* ارتفاع عکس (برابر با عرض) */
+    border-radius: 50%;       /* این خط باعث می‌شود عکس دایره شود */
+    object-fit: cover;        /* عکس را برش می‌زند تا خوب در کادر جا بگیرد */
+    display: block;           /* برای وسط‌چین کردن */
+    margin: 0 auto 20px auto; /* وسط‌چین و فاصله از پایین */
+}
+
+.links {
+    color: white;
+    height: 20px;
+    width: 80px;
+    text-decoration: none; 
+    border: 5px solid white;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+.links:hover {
+    /* background-color: rgba(28, 41, 39, 0.736); */
+    /* color: #141414; */
+    transform: scale(1.05) translateY(-3px); /* بزرگ‌تر و ۳ پیکسل به بالا */
+    transition:0.3s;
+}
+
+/* background-color: rgba(28, 41, 39, 0.736); */
